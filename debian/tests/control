@@ -1,0 +1,14 @@
+Test-Command: /usr/share/cargo/bin/cargo-auto-test unicode-ident 1.0.0 --all-targets --all-features
+Features: test-name=rust-unicode-ident:@
+Depends: dh-cargo (>= 18), librust-criterion-0.3-dev, librust-fst-0.4+default-dev, librust-rand-0.8+default-dev, librust-rand-0.8+small-rng-dev, librust-roaring-0.9+default-dev, librust-ucd-trie-0.1-dev, librust-unicode-xid-0.2+default-dev, @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test unicode-ident 1.0.0 --all-targets 
+Features: test-name=librust-unicode-ident-dev:default
+Depends: dh-cargo (>= 18), librust-criterion-0.3-dev, librust-fst-0.4+default-dev, librust-rand-0.8+default-dev, librust-rand-0.8+small-rng-dev, librust-roaring-0.9+default-dev, librust-ucd-trie-0.1-dev, librust-unicode-xid-0.2+default-dev, @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test unicode-ident 1.0.0 --all-targets --no-default-features
+Features: test-name=librust-unicode-ident-dev:
+Depends: dh-cargo (>= 18), librust-criterion-0.3-dev, librust-fst-0.4+default-dev, librust-rand-0.8+default-dev, librust-rand-0.8+small-rng-dev, librust-roaring-0.9+default-dev, librust-ucd-trie-0.1-dev, librust-unicode-xid-0.2+default-dev, @
+Restrictions: allow-stderr, skip-not-installable
