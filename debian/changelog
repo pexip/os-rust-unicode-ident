@@ -1,3 +1,9 @@
+rust-unicode-ident (1.0.0-1pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Wed, 16 Nov 2022 21:34:22 +0000
+
 rust-unicode-ident (1.0.0-1) unstable; urgency=medium
 
   * Package unicode-ident 1.0.0 from crates.io using debcargo 2.5.0
