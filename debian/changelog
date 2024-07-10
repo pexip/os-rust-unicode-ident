@@ -1,3 +1,9 @@
+rust-unicode-ident (1.0.0-1+pexip24u5) pexip; urgency=medium
+
+  * Rebuild with rustc 1.79
+
+ -- Huw Jones <huw@pexip.com>  Wed, 10 Jul 2024 16:07:08 +0100
+
 rust-unicode-ident (1.0.0-1+pexip24u4) pexip-bookworm; urgency=medium
 
   * New versioning scheme
